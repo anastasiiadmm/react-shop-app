@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
-  max-width: 1200px;
   overflow: auto;
   overflow-x: hidden;
   margin: auto;
@@ -17,7 +16,8 @@ body {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  margin: 0 30px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 code {
@@ -27,4 +27,5 @@ code {
 
 $primary-color: #7BB899;
 $primary-background: #E5E5E5;
+$white-color: #fff;
 $menu-color: #1F2020;

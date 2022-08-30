@@ -1,0 +1,40 @@
+@use "index";
+
+.carousel .control-dots {
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100px !important;
+  border-radius: 16px;
+}
+
+.carousel .control-dots .dot {
+  margin: 2px 8px !important;
+}
+
+.carousel {
+  &__legend-carousel {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    color: index.$white-color;
+    padding: 10px;
+    text-align: center;
+    transition: opacity .35s ease-in-out;
+  }
+
+  &__legend-title {
+    font-size: 72px;
+    margin: 0 0 30px 0;
+  }
+
+  &__legend-sub {
+    font-size: 16px;
+    margin: 0 423px;
+  }
+}
