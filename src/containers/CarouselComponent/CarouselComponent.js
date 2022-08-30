@@ -15,28 +15,32 @@ const CarouselComponent = () => {
           <img alt="img" src={images} />
           <div className="carousel__legend-carousel">
             <p className="carousel__legend-title">Краски</p>
-            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!</p>
+            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей.</p>
+            <p>Найди свой идеальный цвет!</p>
           </div>
         </div>
         <div>
           <img alt="img" src={images} />
           <div className="carousel__legend-carousel">
             <p className="carousel__legend-title">Краски</p>
-            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!</p>
+            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей.</p>
+            <p>Найди свой идеальный цвет!</p>
           </div>
         </div>
         <div>
           <img alt="img" src={images} />
           <div className="carousel__legend-carousel">
             <p className="carousel__legend-title">Краски</p>
-            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!</p>
+            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей.</p>
+            <p>Найди свой идеальный цвет!</p>
           </div>
         </div>
         <div>
           <img alt="img" src={images} />
           <div className="carousel__legend-carousel">
             <p className="carousel__legend-title">Краски</p>
-            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!</p>
+            <p className="carousel__legend-sub">Идеально подходят для стен и других поверхностей.</p>
+            <p>Найди свой идеальный цвет!</p>
           </div>
         </div>
       </Carousel>

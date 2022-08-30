@@ -22,7 +22,7 @@
     margin-right: 130px;
   }
 
-  @media (max-width: 1100px) {
+  @include mixins.bp(desktop) {
     &__menu-navigation {
       display: none;
     }
